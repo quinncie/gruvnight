@@ -55,8 +55,8 @@
 	--text-5: #665c54; /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
-	--bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
-	--bg-2: hsl(220, 15%, 16%); /* dark buttons */
+	--bg-1: #32302f; /* dark buttons when clicked */
+	--bg-2: #32302f; /* dark buttons */
 	--bg-3: #3c3836; /* spacing, secondary elements */
 	--bg-4: #282828; /* main background color */
 	--hover: #504945; /* channels and buttons when hovered */
