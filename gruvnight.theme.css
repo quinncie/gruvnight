@@ -1,13 +1,10 @@
 /**
  * @name gruvnight
  * @description A rounded discord theme based on gruvbox and midnight.
- * @author refact0r
- * @version 1.6.2
- * @invite nz87hXyvcy
- * @website https://github.com/refact0r/midnight-discord
- * @source https://github.com/refact0r/midnight-discord/blob/master/midnight.theme.css
- * @authorId 508863359777505290
- * @authorLink https://www.refact0r.dev
+ * @author quinncie
+ * @version 1.0
+ * @website https://github.com/quinncie/gruvnight
+ * @source https://github.com/quinncie/gruvnight/blob/main/gruvmidnight.theme.css
 */
 
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
@@ -23,10 +20,10 @@
 	--corner-text: 'Gruvnight';
 
 	/* color of status indicators and window controls */
-	--online-indicator: var(--accent-2); /* change to #23a55a for default green */
-	--dnd-indicator: hsl(340, 60%, 60%); /* change to #f13f43 for default red */
-	--idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
-	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
+	--online-indicator: #8ec07c; /* change to #23a55a for default green */
+	--dnd-indicator: #fb4934; /* change to #f13f43 for default red */
+	--idle-indicator: #fabd2f; /* change to #f0b232 for default yellow */
+	--streaming-indicator: #d3869b; /* change to #593695 for default purple */
 
 	/* accent colors */
 	--accent-1: #FBF1C7; /*hsl(190, 70%, 60%); *//* links */
@@ -52,19 +49,19 @@
 	/* text colors */
 	--text-0: #282828; /*white; *//* text on colored elements */
 	--text-1: var(--text-2); /* other normally white text */
-	--text-2: hsl(220, 25%, 70%); /* headings and important text */
-	--text-3: hsl(220, 15%, 60%); /* normal text */
-	--text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
-	--text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
+	--text-2: #928374; /* headings and important text */
+	--text-3: #928374; /* normal text */
+	--text-4: #928374; /* icon buttons and channels */
+	--text-5: #665c54; /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
 	--bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
 	--bg-2: hsl(220, 15%, 16%); /* dark buttons */
-	--bg-3: hsl(220, 15%, 13%); /* spacing, secondary elements */
-	--bg-4: hsl(220, 15%, 10%); /* main background color */
-	--hover: hsla(230, 20%, 40%, 0.1); /* channels and buttons when hovered */
-	--active: hsla(220, 20%, 40%, 0.2); /* channels and buttons when clicked or selected */
-	--message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
+	--bg-3: #3c3836; /* spacing, secondary elements */
+	--bg-4: #282828; /* main background color */
+	--hover: #504945; /* channels and buttons when hovered */
+	--active: #665c54; /* channels and buttons when clicked or selected */
+	--message-hover: #1d2021; /* messages when hovered */
 
 	/* amount of spacing and padding */
 	--spacing: 12px;
