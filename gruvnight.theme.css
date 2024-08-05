@@ -37,14 +37,14 @@
 	--brand-500: var(--accent-1);
 	--brand-560: var(--accent-1);
 	--button-positive-background: var(--accent-1);
-	--background-mentioned: var(--accent-5);
-	--mention-background: #665c54;
+	--background-mentioned: #504945;
+	--mention-background: #3c3836;
 	--green-430: var(--accent-5);
 	--green-500: var(--accent-5);
 	--green-460: var(--accent-5);
 	--brand-360: var(--accent-5);
 	--hover: var(--accent-5);
-	--mention-hover: var(--hover);
+	--mention-hover: #3c3836;
 
 	/* text colors */
 	--text-0: #282828; /*white; *//* text on colored elements */
